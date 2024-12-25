@@ -1,0 +1,91 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(https://www.beautifullife.info/wp-content/uploads/most_expensive_cars/general.jpg);
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+.menu ul li {
+    padding-left: 18px;
+    font-weight: 800;
+}
+
+.menu ul li a {
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+
+    transition: color .6s ease;
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 86, 86);
+}
+
+a:visited {
+    color: rgb(149, 253, 178);
+}
+
+.fakt {
+    color: rgba(176, 97, 255, 0.978);
+}
+
+
+
+
+
+.galery {
+    background-color: rgb(216, 216, 216);
+    padding-bottom: 40px;
+}
+
+.galery-title {
+    font-size: 54px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+.galery-title span {
+    color: rgb(255, 86, 86);
+}
+
+.galery-item img {
+    width: 100%;
+}
+
+.galery-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galery-item {
+    width: 30%;
+}
+
+.name-car {
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
